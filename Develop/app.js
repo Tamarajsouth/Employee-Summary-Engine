@@ -98,6 +98,11 @@ function promptUser() {
             message: "Github username of Intern:",
             name: "githubIntern",
         },
+        {
+            type: "input",
+            message: "School of Intern:",
+            name: "schoolIntern",
+        },
 
     ])
 }
